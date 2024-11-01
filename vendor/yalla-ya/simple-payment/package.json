@@ -1,0 +1,22 @@
+{
+
+  "name": "yalla-ya/simple-payment",
+  "description": "SimplePayment - Make Payment Integration Easy",
+  "keywords": ["payments", "gateway", "sdk", "paypal"],
+  "type": "library",
+  "homepage": "https://github.com/yalla-ya/simple-payment",
+  "authors": [
+      {
+          "name": "Ido Kobelkowsky",
+          "homepage": "https://github.com/idokd"
+      }
+  ],
+  "autoload": {
+      "psr-0": {
+          "SimplePayment": "."
+      },
+      "psr-4": {
+          "SimplePayment\\": "."
+      }
+  }
+}
